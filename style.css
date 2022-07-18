@@ -1,0 +1,383 @@
+*{
+  box-sizing:border-box; 
+ }
+ 
+ body{
+  background-image:url("https://img.freepik.com/vector-gratis/tecnologia-red-futurista-azul_53876-100679.jpg"); 
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+   align-content:flex-start;
+   height:2000px;
+   margin:0%;
+ }
+ header{
+  background:rgb(3, 65, 128);
+   width:100%;
+   height:120px;
+   padding:10px;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+ }
+
+ header .farma{
+  color:white;
+   width:650px;
+   font-size:70px;
+ 
+ }
+ .cont-img{
+  width:100px;
+  height:100px;
+  margin-left:40px;
+ }
+ 
+ .cont-img img{
+  width:100%;
+   height:100%;
+   border-radius:50%;
+  animation: girar 5s infinite linear;
+   transition:0.5s;
+   object-fit:cover;
+ }
+ ul{
+  list-style:none;
+   display:flex;
+   height:30px
+ }
+ li{
+  margin-right:40px;
+  width:70px;
+   display:flex;
+   text-align:center;
+   line-height:30px;
+ }
+ li a{
+  text-decoration:none;
+   color:white;
+   height:100%;
+   width:100%;
+   transition:0.5s;
+   border-radius:10px;
+ }
+ li a:hover{
+   background:white;
+   color:black;
+   transition:0.5s;
+ }
+ @keyframes girar{
+   to{
+    transform:rotateY(360deg); 
+   }
+ }
+ .cont-img img:hover{
+   border-radius:10px;
+ }
+ .main{
+   background:white;
+   width:600px;
+   height:1900px;
+   margin-top:50px;
+   margin-left:50px;
+   display:flex;
+   flex-wrap:wrap;
+   padding:10px;
+   justify-content:center;
+   align-content:flex-start;
+   border-radius:10px;
+   padding-top:0px;
+ }
+ 
+ .logo-html{
+  width:250px;
+  height:250px;
+  transition:0.5s;
+ }
+.logo-html:hover{
+  transition:0.5s;
+  transform:scale(1.08);
+}
+ .logo-html img{
+   width:100%;
+   height:100%;
+   margin-top:27px;
+ }
+ .txt{
+   width:290px;
+   height:275px;
+   margin:5px;
+   display:flex;
+   align-items:flex-start;
+   text-align:justify;
+   }
+ .txt p{
+  margin-top:28px;
+ }
+ .txt2{
+ width:521px;
+  height:160px;
+  display:flex;
+  align-items:flex-end;
+   text-align:justify;
+ }
+ .title{
+  color:red;
+  text-align:center;
+   height:50px;
+   width:100%;
+ }
+ .sub{
+  position:absolute;
+  background:white;
+   width:250px;
+   height:350px;
+   margin-top:20px;
+   border-left:solid 2px;
+   border-radius:10px;
+   position:sticky;
+   top:60px;
+  box-shadow:inset 0 0 18px black;
+ }
+ .sub nav{ 
+  height:100%;
+  display:flex;
+  flex-direction:column;
+   text-align:center;
+   justify-content:space-around;
+   align-items:center;
+ }
+ .art6{
+  margin-bottom: 15px;
+}
+ .sub nav a{
+   font-size:20px;
+   color:black;
+   text-decoration:none;
+   width:100px;
+   height:40px;
+   line-height:45px; 
+ }
+.sub nav a::after{
+  display:block;
+  content: '';
+  width:0px;
+  height:3px;
+  background-color:blue;
+  transition:0.3s;
+}
+.sub nav a:hover::after{
+  transition:0.3s;
+  width:100px;
+}
+ .sub nav a:hover{
+   font-size:22px;
+ }
+ .txt-3,
+ .txt-4,
+ .txt-5,
+ .txt-6,
+ .txt-7,
+ .txt-8{
+  color:black;
+   background:white;
+   padding: 0 30px;
+   text-align:justify;
+   
+ }
+ 
+ .logo-css{
+  width:700px;
+  height:250px;
+  background:white;
+   display:flex;
+   justify-content:center; 
+ }
+ .logo-css img{
+  width:185px; 
+   height:250px;
+  transition:0.5s;
+ }
+.logo-css img:hover{
+  transition:0.5s;
+  transform:scale(1.08);
+}
+ .js-logo{
+  width:155px;
+   height:270px;
+   margin-right:40px;
+   
+ }
+ .js-logo img{
+   width:175px;
+  transition:0.5s;
+ }
+.js-logo img:hover{
+  transition:0.5s;
+  transform:scale(1.08);
+}
+
+ .txt-7{
+   width:380px;
+   text-align:justify;
+ }
+ footer{
+  background:black;
+   width:100%;
+   height:200px;
+   color:white;
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction:row;
+   justify-content:space-evenly;
+   margin-top:320px;
+   
+ }
+ footer .img-1{
+   width:70px;
+   transition:0.5s;  
+   border-radius: 50%;
+ }
+ footer .img-2{
+  width:70px; 
+  transition:0.5s;
+  border-radius: 18px;
+ }
+ footer .img-3{
+  width:85px; 
+  transition:0.5s;
+  border-radius: 40%;
+  padding: 0%;
+ }
+footer .img-4{
+  width:70px;
+  transition:0.5s;
+  border-radius:50%;
+
+}
+ footer .redes{
+ display:flex;
+ width:390px;
+   height:100px;
+   justify-content: center;
+  align-items:center;
+ }
+ footer .blog{
+   display:flex;
+   flex-direction:column;
+   width:280px;
+   height:140px;
+   margin-right: 140px;
+ }
+ footer p{
+width: 290px;
+margin-left: 10px;
+ }
+ .titulo{
+   width:600px;
+   height:80px;
+   margin-left:50px;
+ }
+ footer img{
+   margin-left:20px;
+ }
+ footer .img-1:hover{
+   transform:rotateZ(360deg);
+   transition:0.7s;
+   width:90px;
+   height:90px;
+ }
+ footer .img-2:hover{
+   transform:rotateZ(360deg);
+   transition:0.7s;
+   width:90px;
+   height:90px;
+ }
+ footer .img-3:hover{
+   transform:rotateZ(360deg);
+   transition:0.7s;
+   width:90px;
+   height:90px;
+ }
+ footer .img-4:hover{
+   transform:rotateZ(360deg);
+   transition:0.7s;
+   width:85px;
+   height:85px;
+ }
+form{
+ margin-top:10px;
+  background:linear-gradient(darkblue 20%, white 100%);
+  border-radius:10px; 
+  height:285px;
+  width:230px;
+  margin-left:10px;
+  display: flex;
+  justify-content: center;
+}
+form fieldset{
+  border-radius:10px;
+ color:white;
+ width: 210px;
+ height: 280px;
+ text-align: center;
+}
+.inputs{
+ text-align:center;
+}
+.radios{
+  margin-top:10px;
+  text-align:center;
+ color:black; 
+}
+.buttons{
+  margin-top:10px;
+  text-align:center;
+}
+form input{
+  margin-top:10px;
+  width:160px;
+  border-radius:2px;
+  border-style:none;
+
+}
+form input[type="radio"]{
+width:30px;  
+ margin:auto;
+
+}
+form .fecha{
+  margin-top:4px;
+  font-size:15px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+
+}
+form button{
+  padding:4px;
+  border-radius:5px;
+  color:white;
+ background:darkblue;
+  transition:0.3s;
+}
+form input[type="date"]{
+ width:160px;
+ margin-bottom:5px;
+}
+form button:hover{
+  cursor:pointer;
+  background:white;
+  color:black;
+  transition:0.3s;
+}
+.frm{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  padding:10px;
+  color:white;
+}
